@@ -11,4 +11,4 @@ Starten des Programmes
 
 <pre>java -cp .;jnetpcap.jar ArpSpoof TARGET_MAC SPOOFED_IP SPOOFED_MAC TARGET_IP</pre>
 
-SPOOFED_MAC sollte in beiden Fällen die eigene sein.
+SPOOFED_MAC sollte in beiden Fällen die eigene und die SPOOFED_IP die IP des gespooften Gateway sein.
